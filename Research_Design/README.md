@@ -4,7 +4,7 @@ This project lists ideas that initially brought me to data science track and stu
 
 Please refer to the link for details: https://w201rdada.github.io/portfolio-CongyingChen/index.html
 
-One of my ideals is selected as a group project. Please refer to the presentation: Guest Experience Personalizer (GEP). 
+One of my ideals (Guest Experience Personalizer) is selected as a group project. Please refer to the [slides presentation](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer(GEP).pdf), and [paper](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer(GEP)_Paper.pdf) for details 
 
 
 
