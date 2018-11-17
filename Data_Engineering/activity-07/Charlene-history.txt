@@ -1,0 +1,499 @@
+   27  rm -rf portfolio
+   28  ls
+   29  git clone https://github.com/w201ssh -T git@github.comrdada/portfolio-CongyingChen.git
+   30  ssh -T git@github.com
+   31  git credential-osxkeychain erase
+   32  git credential-osxkeychain erase
+   33  https://congying.chen@berkeley.edu@github.com/w201rdada/portfolio-CongyingChen.git
+   34  git clone https://congying.chen@berkeley.edu@github.com/w201rdada/portfolio-CongyingChen.git
+   35  git clone https://'congying.chen@berkeley.edu'@github.com/w201rdada/portfolio-CongyingChen.git
+   36  git clone https://CongyingChen@github.com/w201rdada/portfolio-CongyingChen.git
+   37  ls
+   38  git clone https://CongyingChen@github.com/w201rdada/portfolio-CongyingChen.git
+   39  ls
+   40  ls
+   41  cd portfolio-CongyingChen/
+   42  ls
+   43  vi 01.Rmd 
+   44  ls
+   45  git status
+   46  git add 01.Rmd 
+   47  git status
+   48  git lgo
+   49  git log
+   50  git commit -m "testing commit"
+   51  git log
+   52  ls
+   53  git config user.name "CongyingChen"
+   54  vi 01.Rmd 
+   55  git add 01.Rmd 
+   56  git commit -m "testing commit again"
+   57  git log
+   58  cd ..
+   59  ls
+   60  rm -rf portfolio-CongyingChen
+   61  git clone https://CongyingChen@github.com/w201rdada/portfolio-CongyingChen.git
+   62  ls
+   63  cd portfolio-CongyingChen/
+   64  ls
+   65  git config user.name "CongyingChen"
+   66  git config user.email "congying.chen@berkeley.edu"
+   67  vi 01.Rmd 
+   68  vi 01.Rmd 
+   69  git add 01.Rmd 
+   70  git commit -m 'testing commint'
+   71  git log
+   72  ls
+   73  git status
+   74  git status
+   75  git push origin master
+   76  git status
+   77  git log
+   78  git reset --hard 77806c554bc4758ec8c6410c0a5ada9bb23bee3f
+   79  git push --force origin master
+   80  git status
+   81  ls
+   82  git log
+   83  git status
+   84  git stats
+   85  git status
+   86  git status
+   87  git commit -m "First Draft of Big Idea #1 Submission"
+   88  add 01.rmd
+   89  git add 01.Rmd 
+   90  git status
+   91  git commit -m "First Draft of Big Idea #1 Submission"
+   92  git push origin master
+   93  git add 01.Rmd 
+   94  git status
+   95  git commit -m "First Draft of Big Idea #1 Submission-adjust"
+   96  git push origin master
+   97  git add 01.Rmd 
+   98  git status
+   99  git commit -m "First Draft of Big Idea #1 Submission-adjust-2"
+  100  git push origin master
+  101  git clone https://github.com/w201rdada/portfolio-CongyingChen
+  102  git clone https://github.com/w201rdada/portfolio-CongyingChen
+  103  git clone https://CongyingChen@github.com/w201rdada/portfolio-CongyingChen
+  104  getwd()
+  105  pwd
+  106  cd ..
+  107  ls
+  108  ls p*
+  109  rm -rf portfolio-CongyingChen
+  110  ls
+  111  pwd
+  112  cd ..
+  113  ls
+  114  cd Desktop/
+  115  cd  .
+  116  ls
+  117  pwd
+  118  cd ..
+  119  ls
+  120  cd Desktop/W201_GitHub_HW/
+  121  git clone https://CongyingChen@github.com/w201rdada/portfolio-CongyingChen
+  122  cd
+  123  pwd
+  124  cd -
+  125  ls
+  126  cd portfolio-CongyingChen/
+  127  ls
+  128  git log
+  129  git config user.name "CongyingChen"
+  130  git config user.email "congying.chen@berkeley.edu"
+  131  cd Desktop/W201_GitHub_HW/
+  132  cd
+  133  cd Desktop/W201_GitHub_HW/
+  134  pwd
+  135  git config user.name "CongyingChen"
+  136  ls
+  137  cd portfolio-CongyingChen/
+  138  ls
+  139  git log
+  140  git config user.name "CongyingChen"
+  141  git config user.email "congying.chen@berkeley.edu"
+  142  git add 01.Rmd 
+  143  git status
+  144  git commit -m"Week 3’s submission"
+  145  git log
+  146  git push origin master
+  147  git add 01.Rmd 
+  148  git commit -m"Week 3’s submission2"
+  149  git push origin master
+  150  git add 01.Rmd 
+  151  git commit -m"Week 3’s submission3"
+  152  git push origin master
+  153  git add 01.Rmd 
+  154  git commit -m"Week 3’s submission-ImageSize"
+  155  git push origin master
+  156  git add 01.Rmd 
+  157  git commit -m"Week 3’s submission-ImageSize2"
+  158  git push origin master
+  159  git add 01.Rmd 
+  160  git commit -m"Week 3’s submission-ImageSize2"
+  161  git add 01.Rmd 
+  162  git push origin master
+  163  git add 01.Rmd 
+  164  git commit -m"Week 3’s submission-ImageSize3"
+  165  git push origin master
+  166  git add 01.Rmd 
+  167  git commit -m"Week 3’s submission-ImageSize4"
+  168  git push origin master
+  169  git add 01.Rmd 
+  170  git commit -m"Week 3’s submission-ImageLink"
+  171  git push origin master
+  172  git add 01.Rmd 
+  173  git commit -m"Week 3’s submission-ImageLink2"
+  174  git push origin master
+  175  git add 01.Rmd 
+  176  git commit -m"Week 3’s submission-ImageLink3"
+  177  git push origin master
+  178  pwd
+  179  ls
+  180  man ls
+  181  man ls
+  182  clear
+  183  ls
+  184  setwd(~Desktop)
+  185  cd ~Desktop
+  186  python3
+  187  pwd
+  188  cd ~/Desktop/My\ Study/UCB_MIDS/---Courses/Bridge\ Data\ Structs/Unit1
+  189  cwd
+  190  pwd
+  191  python3 Q2.py 
+  192  python3 Q2.py 
+  193  python3
+  194  python3 Q2.py 
+  195  python3 Q2.py 
+  196  python3 Q2.py 
+  197  pwd
+  198  cd /Users/chenyingcharlene/Desktop
+  199  pwd
+  200  python3 test.py 
+  201  python3 test.py 
+  202  python3 test.py 
+  203  python3 test.py 
+  204  cwd
+  205  pwd
+  206  cd /Users/chenyingcharlene/Desktop/My Study/UCB_MIDS/---Courses/Bridge Data Structs/
+  207  cd /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/Bridge\ Data\ Structs/1B_assignments_2016_11_10/Assignment_2/
+  208  python3 Strategy.py 
+  209  python3 Strategy.py 
+  210  python3 Strategy.py 
+  211  python3 Strategy.py 
+  212  python3 Strategy.py 
+  213  python3 Strategy.py 
+  214  python3 Strategy.py 
+  215  python3 Strategy.py 
+  216  python3 Strategy.py 
+  217  python3 Strategy.py 
+  218  python3 Strategy.py 
+  219  python3 Strategy.py 
+  220  python3 Strategy.py 
+  221  python3 Strategy.py 
+  222  python3 Strategy.py 
+  223  python3 Strategy.py 
+  224  python3 Strategy.py 
+  225  pwd
+  226  cd ..
+  227  ls
+  228  python3 Quiz3_test.py 
+  229  python3 Quiz3_test.py 
+  230  cd Assignment_5
+  231  ls
+  232  python3 graph.py
+  233  jupyter notebook
+  234  docker version
+  235  docker pull midsw205/base
+  236  cd ..
+  237  cd..
+  238  cd ..
+  239  cd ..
+  240  cd W205\ Data\ Engineering\ /
+  241  pwd
+  242  mkdir w205
+  243  docker run
+  244  docker run   -it   --rm   -v /Users/<user>/w205:/w205   midsw205/base:latest \
+  245  ls
+  246  ls
+  247  docker run -it --rm -v /Users/chenyingcharlene/w205:/w205 midsw205/base:latest bash
+  248  ls
+  249  docver -v
+  250  docker -v
+  251  ls /Users
+  252  ls /Users/chenyingcharlene/w*
+  253  ls /Users/chenyingcharlene/w205
+  254  cd /Users/chenyingcharlene/w205
+  255  ls
+  256  pwd
+  257  cd ..
+  258  ls
+  259  ls * -t
+  260  ls
+  261  ls -all
+  262  docker -v
+  263  pwd
+  264  cd Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /w205/
+  265  pwd
+  266  cd /Users/chenyingcharlene//w205/
+  267  ls
+  268  pwd
+  269  git clone https://github.com/mids-w205-crook/activity-signup-CongyingChen
+  270  git clone https://github.com/mids-w205- 
+  271  git clone https://github.com/mids-w205-cook/signup-CongyingChen
+  272  cd /Users/chenyingcharlene/Desktop/My Study/UCB_MIDS/---Courses/W205 Data Engineering /w205
+  273  pwd
+  274  cd ~/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /w205/
+  275  pwd
+  276  git clone https://github.com/mids-w205-cook/signup-CongyingChen
+  277  cd ~/Downloads/
+  278  ls
+  279  git clone https://github.com/w201rdada/portfolio-CongyingChen
+  280  xcode-select --install
+  281  xcode-select --install
+  282  git clone https://github.com/w201rdada/portfolio-CongyingChen
+  283  cd /Users/chenyingcharlene/w205
+  284  pwd
+  285  git clone https://github.com/mids-w205-cook/signup-CongyingChen
+  286  git clone https://github.com/mids-w205-crook/activity-signup-CongyingChen
+  287  git clone https://github.com/mids-w205-cook/signup-CongyingChen
+  288  git clone https://github.com/mids-w205-crook/signup-CongyingChen
+  289  git clone https://github.com/mids-w205-crook/activity-signup-CongyingChen
+  290  git clone https://CongyingChen:git clone https://github.com/mids-w205-crook/activity-signup-CongyingChen
+  291  git clone https://CongyingChen@github.com/mids-w205-crook/activity-signup-CongyingChen
+  292  git clone https://CongyingChen@github.com/mids-w205-crook/activity-signup-CongyingChen.git
+  293  nano README.md
+  294  cat README.md 
+  295  nano README.md
+  296  ls *
+  297  ls
+  298  pwd
+  299  cd activity-signup-CongyingChen/
+  300  ls
+  301  nano README.md
+  302  cat README.md 
+  303  git config --global user.email "congyingchen@berkeley.edu"
+  304  git config --global user.name "Charlene Chen"
+  305  git status
+  306  git add README.md 
+  307  git commit -m 'my new readme'
+  308  git push
+  309  jupter notebook
+  310  jupter-notebook
+  311  jupyter notebook
+  312  git clone https://github.com/MIDS-W207/Spring2018-Section3/tree/master/Week2
+  313  --help
+  314  docker --help
+  315  docker images
+  316  docker info
+  317  docker run hello-world
+  318  docker imgies
+  319  docker images
+  320  docker ps
+  321  docker run -it
+  322  docker run -it ubuntu bash
+  323  pwd
+  324  cd /Users/chenyingcharlene/Desktop/
+  325  mkdir Docker_temp
+  326  docker run -it --rm -v /Users/chenyingcharlene/Desktop/Docker_temp:/docker_temp ubuntu bash
+  327  pwd
+  328  cd /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /
+  329  cd ~W205
+  330  cd ~/w205/
+  331  pwd
+  332  /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /
+  333  cd /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /w205/
+  334  run -it --rm -v /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /w205:/w205 midsw205/base:latest bash
+  335  docker run -it --rm -v /Users/chenyingcharlene/Desktop/My\ Study/UCB_MIDS/---Courses/W205\ Data\ Engineering\ /w205:/w205 midsw205/base:latest bash
+  336  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  337  jupyter notebook
+  338  ducker run -it --rm -v /Users/chenyingcharlene/Desktop/Github_MIDS/w205:/w205 midsw205/base bash
+  339  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  340  docker run -it --rm -v ~/w205:/w205 midsw205/base bash
+  341  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  342  git clone https://CongyingChen@github.com/MIDS-W207/Spring2018-Section3.git
+  343  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  344  cd Week4-HW1/
+  345  cd Spring2018-Section3/
+  346  jupyter notebook
+  347  cd 
+  348  cd Dropbox/
+  349  cd ML_Taotao/
+  350  cd ..
+  351  cd Dropbox/
+  352   jupyter notebook
+  353  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  354  cd Week4-HW1/
+  355  jupyter notebook
+  356  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  357  git clone https://CongyingChen@github.com/MIDS-W207/Spring2018-Section3.git
+  358  docker run -it ubuntu bash
+  359  docker run -it --rm -v /Users/chenyingcharlene/Desktop/Github_MIDS/w205:/w205 midsw205/base bash
+  360  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  361  mkdir kafka
+  362  cd kafka
+  363  dir
+  364  dir
+  365  ls
+  366  dir
+  367  cd ...
+  368  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205/redis/
+  369  docker-compose up -d
+  370  docker-compose ps
+  371  docker-compose logs redis
+  372  docker-compose exec mids bash
+  373  docker-compose down
+  374  docker-compose ps
+  375  docker-compose up -d
+  376  docker-compose exec mids jupyter notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root
+  377  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205/redis/
+  378  docker-compose ps
+  379  docker-compose down
+  380  docker-compose ps
+  381  docker-compose up -d
+  382  docker-compose logs mids
+  383  docker-compose ps
+  384  docker-compose ps
+  385  docker-compose down
+  386  docker-compose ps
+  387  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  388  jupyter notebook
+  389  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  390  git clone https://CongyingChen@github.com/MIDS-W207/Spring2018-Section3.git
+  391  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  392  jupyter notebook
+  393  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  394  git clone https://github.com/mids-w205-crook/activity-04-CongyingChen
+  395  git clone https://CongyingChen@github.com/mids-w205-crook/activity-04-CongyingChen.git
+  396  git status
+  397  cd activity-04-CongyingChen/
+  398  git status
+  399  git add *
+  400  git status
+  401  git commit -m "update for HW4'
+  402  "
+  403  git commit -m 'update for HW4'
+  404  git push
+  405  git status
+  406  git add *
+  407  git commit -m 'update for HW4'
+  408  git push
+  409  git add *
+  410  git commit -m 'update for HW4'
+  411  git push
+  412  git add *
+  413  git commit -m 'update for HW4'
+  414  git push
+  415  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  416  git clone https://CongyingChen@github.com/mids-w205-crook/activity-05-CongyingChen.git
+  417  git clone https://CongyingChen@github.com/mids-w205-crook/activity-06-CongyingChen.git
+  418  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  419  docker pull midsw205/base
+  420  docker run -it --rm -vdocker run -it --rm -v /Users/chenyingcharlene/Desktop/Github_MIDS/w205:/w205 midsw205/base bash
+  421  docker run -it --rm -vdocker run -it --rm -v /Users/chenyingcharlene/Desktop/Github_MIDS/w205:/w205 midsw205/base bash
+  422  docker run -it --rm -p 8888:8888 -v ~/w205:/w205 midsw205/base bash
+  423  docker run -it --rm -p 8888:8888 -v /Users/chenyingcharlene/Desktop/Github_MIDS/w205:/w205 midsw205/base bash
+  424  docker ps -a
+  425  docker-compose -a
+  426  docker-compose ps
+  427  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  428  cd redis/
+  429  copy example-3-docker-compose.yml docker-compose.yml 
+  430  docker ps -a
+  431  docker-compose ps
+  432  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w207
+  433  git clone https://CongyingChen@github.com/MIDS-W207/Spring2018-Section3.git
+  434  jupyter notebook
+  435  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205/kafka
+  436  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/GGRvoh
+  437  docker-compose up -d
+  438  docker-compose logs -f kafka
+  439  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  440  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  441  docker-compose exec mids bash -c "cat cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205/kafka/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  442  docker-compose exec mids bash -c "cat /Users/chenyingcharlene/Desktop/Github_MIDS/w205/kafka/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  443  docker-compose exec mids bash -c "cat /w205/kafka/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  444  docker-compose exec mids bash -c "cat /kafka/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  445  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  446  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  447  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  448  cd /Users/chenyingcharlene/Desktop/Github_MIDS/w205
+  449  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/GGRvoh
+  450  cd kafka
+  451  docker-compose logs -f kafka
+  452  docker-compose up -d
+  453  docker-compose logs -f kafka
+  454  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  455  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  456  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  457  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  458  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  459  docker-compose down
+  460  cd w205
+  461  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/GGRvoh
+  462  docker-compose up -d
+  463  docker-compose logs -f kafka
+  464  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  465  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  466  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  467  docker-compose exec kafka kafka-console-consumer --bootstrap-server kafka:29092 --topic foo --from-beginning --max-messages 42
+  468  docker-compose down
+  469  history > <user-name>-history.txt
+  470  history > <chenyingcharlen>-history.txt
+  471  history > history_for_print.txt
+  472  cd kafka
+  473  vi docker-compose.yml
+  474  cd /Users/chenyingcharlene/w205
+  475  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/f5bRm4
+  476  cd kafka
+  477  docker-compose up -d
+  478  docker-compose logs -f kafka
+  479  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  480  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  481  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json"
+  482  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.'"
+  483  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  484  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  485  docker-compose exec kafka kafka-console-consumer --bootstrap-server kafka:29092 --topic foo --from-beginning --max-messages 42
+  486  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  487  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e" | wc -l
+  488  docker-compose down
+  489  history >Charlene-history.txt
+  490  docker ps
+  491  set -o vi
+  492  docker ps
+  493  docker ps
+  494  ssh science@165.227.0.11
+  495  ssh science@165.227.0.11 
+  496  cd /Users/chenyingcharlene/w205
+  497  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/f5bRm4
+  498  cd kafka 504 docker-compose up -d
+  499  cd ~/w205/spark-with-kafka
+  500  docker-compose down
+  501  cd /Users/chenyingcharlene/w205
+  502  mkdir ~/w205/spark-with-kafka
+  503  cd ~/w205/spark-with-kafka
+  504  cp ~/w205/course-content/07-Sourcing-Data/docker-compose.yml
+  505  docker-compose up -d
+  506  docker-compose logs -f kafka
+  507  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  508  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  509  docker-compose exec kafka bash -c "seq 42 | kafka-console-producer --request-required-acks 1 --broker-list kafka:29092 --topic foo && echo 'Produced 42 messages.'"
+  510  docker-compose exec spark pyspark
+  511  docker-compose down
+  512  docker-compose ps -a
+  513  ~/w205/spark-with-kafka
+  514  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/f5bRm4
+  515  docker-compose up -d
+  516  docker-compose logs -f kafka
+  517  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  518  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  519  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json"
+  520  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.'"
+  521  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c"
+  522  docker-compose exec mids bash -c "cat /w205/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  523  docker-compose exec spark pyspark
+  524  docker-compose down
+  525  history >Charlene-history.txt
