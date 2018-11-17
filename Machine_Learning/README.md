@@ -1,7 +1,5 @@
 # Forecasting Outcomes of 2018 Women’s March Madness
-## W207 Final Project 
 ## Julia Buffinton, Charlene Chen, Arvindh Ganesan,  Prashant Kumar Sahay
-### Due: 4/17/18
 
 In this project, we use historical data about NCAA Division I women's college basketball games (both tournament and regular season) and teams, with the goal of predicting the winning probabilities for every possible matchup of teams of the 2018 NCAA "March Madness" tournament.  
 
