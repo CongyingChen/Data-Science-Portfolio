@@ -1,0 +1,48 @@
+---
+title: "W201 Portfolio"
+author: "Charlene Chen"
+date: "MIDS Fall 2017"
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+<!-- This won't be displayed but it will initialize your R session. Add any R libraries you need here. -->
+```{r init,include=FALSE,echo=FALSE}
+library(magrittr)
+```
+
+
+# Welcome! {-}
+
+<!-- You can include images saved within your repo... -->
+<!---```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
+knitr::include_graphics('img/hello-world.png')
+``` -->
+
+Welcome to my portfolio! As a data science graduate student and a hotelier for six years, I have two ideas about leveraging data science to help Hospitality companies gain better revenue outcome.
+
+
+
+<!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
+<p>
+```{r Data-Science,echo=FALSE,fig.cap='Personalized Service and Pricing for Hotel Loyal Guests - Charlene Chen',fig.align='center'}
+knitr::include_url('https://drive.google.com/file/d/1cxeChXAymlQm2-dzR2_dg99h_oi6Lx9D/preview')
+```
+
+
+### Abstract of my first cool idea - Personalized Service and Pricing for Hotel Loyal Guests
+
+Hotel loyalty guests usually bring the most revenue to hotel business. They require more personalized service, which is not always satisfied by the hotel, due to the lack of understanding those guests. However, by utilizing the data science technology, such as machine learning, we, a data science team in hotel company, can make full use of the existing data (reservation, guests' preference, transaction, public camera pictures, etc.) to know the most valuable hotel guests much better and then provide personalized service to them.
+ 
+
+### Abstract of my second cool idea - Personalized Tourism Products in the Digital Age
+
+Thanks to the development of internet, social media and travel websites, more people make travel plan online and tend to have personalized travel plan instead of mass tour group products, which require more tourism products from online travel agencies (OTA). with novelty, convenience, flexibility, and personalization, instead of simple rate quote of hotel price, airline tickets, and sometimes rental car rate. There must be a large amount of data (online review, social media, local events, etc.) that we, an OTA data science team, can utilize to understand the tourists better and have smarter tourism products. 
+
+
+## About the author {-}
+
+I'm the student of Master of Information and Data Science (MIDS) program at UC Berkeley, passionate about data science in Hospitality industry. As a hotelier for six years and an alumna from Cornell University Hotel School, I have deep domain knowledge in Hospitality industry, especially in Hotel, Restaurant, Online Travel Agency, and Rental Car, focusing on marketing, pricing and strategy making. I believe by leveraging the state of the art data science technology, I can help hospitality companies generate better business outcome in the short future!
+
+
+*Updated: `r Sys.Date()`*

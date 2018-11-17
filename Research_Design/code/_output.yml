@@ -1,0 +1,26 @@
+bookdown::gitbook:
+  number_sections: TRUE
+  dev: svglite
+  split_by: chapter
+  split_bib: TRUE
+  toc_depth: 2
+  config:
+    toc:
+      collapse: section
+      scroll_highlight: yes
+      before: |
+        <li><a href="./">Charlene Chen</a></li>
+      after: |
+        <li><a href="https://github.com/CongyingChen" target="blank">GitHub</a></li>
+        <li><a href="https://www.ischool.berkeley.edu/people/congying-charlene-chen" target="blank">UC Berkeley</a></li>
+        <li><a href="https://www.linkedin.com/in/congyingchen/" target="blank">LinkedIn</a></li>
+    sharing:
+      facebook: no
+      twitter: no
+      google: no
+      weibo: no
+      instapper: no
+      vk: no
+      all: no
+    edit: https://github.com/w201rdada/portfolio-CongyingChen/edit/master/%s
+    download: null
