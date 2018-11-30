@@ -1,5 +1,5 @@
 # My  Portfolio of Course W201
-# Research Design and Applications for Data and Analysis
+## Research Design and Applications for Data and Analysis
 
 This project lists ideas that initially brought me to data science track and studying Master of Information and Data Science at UC Berkeley. This research design course give me the opportunity to refine my ideals, give a voice to those thoughts and to share them with others. Please refer to the [link](https://w201rdada.github.io/portfolio-CongyingChen/index.html) for details of my ideals: [Personalized Service and Pricing for Hotel Loyal Guests](https://w201rdada.github.io/portfolio-CongyingChen/PSP-HotelLoyalty.html), and [Personalized Tourism Products in the Digital Age](https://w201rdada.github.io/portfolio-CongyingChen/Personalized-Tourism-Products.html).
 
