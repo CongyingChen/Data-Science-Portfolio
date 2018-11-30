@@ -5,6 +5,6 @@ This project lists ideas that initially brought me to data science track and stu
 
 One of my ideals (**Hotel Guest Experience Personalizer**) is selected in the class as a group final project. Please refer to the [presentation slides](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer_Slides.pdf), [paper](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer_Paper.pdf), and [demo video](https://drive.google.com/file/d/1MbKdP3_y5XJoYJTzlzqDrDNnq7ZsLHc4/view?usp=sharing) for details.
 
-  Presentation Slides       |  Video Demo
+  Presentation Slides       |  Demo Video 
 :-------------------------:|:-------------------------:
 [![Project Slides](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/slides_picture.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer_Slides.pdf)  |  [![Project video demo](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/video_picture.png)](https://drive.google.com/file/d/1MbKdP3_y5XJoYJTzlzqDrDNnq7ZsLHc4/view?usp=sharing)
