@@ -7,4 +7,4 @@ One of my ideals (**Hotel Guest Experience Personalizer**) is selected in the cl
 
   Presentation Slides       |  Video Demo
 :-------------------------:|:-------------------------:
-[![Project Slides](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/slides_pic.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer_Slides.pdf)  |  [![Project video demo](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/video_page.png)](https://drive.google.com/file/d/1MbKdP3_y5XJoYJTzlzqDrDNnq7ZsLHc4/view?usp=sharing)
+[![Project Slides](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/slides_page.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/Guest_Experience_Personalizer_Slides.pdf)  |  [![Project video demo](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Research_Design/code/video_page.png)](https://drive.google.com/file/d/1MbKdP3_y5XJoYJTzlzqDrDNnq7ZsLHc4/view?usp=sharing)
