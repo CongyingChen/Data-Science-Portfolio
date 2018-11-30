@@ -7,6 +7,6 @@ We were able to achieve a log-loss of 0.43159 on 2018 NCAA Division I Women's Ba
 
 
 
-[![Presentation](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/code/Logic-picture.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/ML_Presentation.pdf)
+[![Presentation](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/code/Model-picture.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/ML_Presentation.pdf)
 
 [![Presentation](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/code/Eval-picture.png)](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Machine_Learning/ML_Presentation.pdf)
