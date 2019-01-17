@@ -15,11 +15,11 @@ Enable users to efficiently navigate the World Bank EdStats dataset and aid in t
 
 |EdStats Overview |  Discover Distributions |
 |:---------------:|:-----------------------:|
-| ![](/media/Viz1Gif.gif)  |  ![](/media/Viz2Gif.gif) |
+| ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Data_Visualization/media/Viz1Gif.gif)  |  ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Data_Visualization/media/Viz2Gif.gif) |
 
 | Explore Relationships | See Details and Trends |
 |:---------------------:|:----------------------:|
-| ![](/media/Viz3Gif.gif) | ![](/media/Viz4Gif.gif) |
+| ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Data_Visualization/media/Viz3Gif.gif) | ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Data_Visualization/media/Viz4Gif.gif) |
 
 
 ## Data Sources: ##

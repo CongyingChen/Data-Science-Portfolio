@@ -1,14 +1,14 @@
 #  Effect of Meatless Day on Overall Intake
 
-##Does “Meatless one day of week” reduce total meat consumption for that week?
+## Does “Meatless one day of week” reduce total meat consumption for that week?
 
 Charlene Chen, Bethany Faughn, and Arvindh Ganesan
 
 The project is to implement the experiment to exam what is the aggregate change in meat consumption when subjects participate in these campaigns?
 
-![](/code/attr1.png)
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Experiments_and_Causal_Inference/code/attr1.png)
 
-![](/code/Flow_Diagram.png)
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Experiments_and_Causal_Inference/code/Flow_Diagram.png)
 
 When clustered by subjects' ID and taking covariates into account, the regression indicates that the best estimate is that those subjects reduce overall meat consumption by an average of 0.39 ounces each day of the week they are in treatment. However, the 95% confidence interval on this effect is quit large, indicating that the experiment do not have the statistical power to determine whether an effect of this size is simply due to random variation.
 
