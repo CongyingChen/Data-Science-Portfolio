@@ -1,0 +1,257 @@
+---
+title: "Impact of One Meatless Day Per Week on Overall Meat Consumption"
+author: "Charlene Chen, Bethany Faughn, and Arvindh Ganesan"
+output:
+  html_document:
+    code_folding: "hide"
+---
+```{r,echo=FALSE,warning=FALSE, include=FALSE}
+# load packages 
+library(foreign)
+library(dummies)
+library(data.table)
+library(MASS)
+library(ggplot2)
+library(lmtest)
+library(stargazer)
+library(multiwayvcov)
+library(sandwich)
+library(sp)
+library(pwr)
+library(plotrix)
+```
+# Background
+
+There are a number of reasons for organizations and governments to promote the reduction of meat consumption, including the goals of reduced animal suffering, reduced rate of climate change and fresh water contamination, food sustainability, and the potential improvements in population health. As a result, different campaigns aimed at this goal have been employed by various environmental, animal rights, and health focused groups. One such campaign, sometimes called "Meatless Monday"", focuses on participants eliminating eating animals for one day per week. Some of these campaigns have made claims of how much water, greenhouse gas emissions or number of animals that this participation is expected to save; however, these estimates assume both that a participant's meat consumption is consistent with average meat consumption and that a participant's meat consumption on days other than Monday (or whatever day chosen) does not change due to their participation in the campaign. 
+
+# Research Question
+
+It is not currently clear how reasonable these two assumptions are. It may be that the meat consumption of those open to participating in these programs is not consistent with the average level. These people are likely to have prior knowledge of some of the adverse effects of eating meat advertised by the campaign, so a person with an interest in participating in one of these programs may already be eating less meat than average. It also may be reasonably argued that actively choosing to reduce meat consumption on one day of the week could result in the participant modifying their behavior on the other days of the week. The participant could consciously or unconsciously compensate for their meatless day by eating more meat on other days of the week. Alternatively, participation on a weekly basis may keep the goal of reduced meat consumption more present in the participant's mind and help them to further reduce meat consumption on other days of the week. This experiment aims to quantify the true effect on overall meat consumption, as this would be useful to organizations interested in promoting reduction in order to compare the value of such a campaign against other areas of investment. 
+
+# Experiment
+
+## Design
+
+The study follows a two-group, within-subjects design as depicted in Figure 1. The primary data collected was the weight of each participant's meat intake over the course of the study. All subjects were observed for one week to gather daily measurements of meat consumption through self-reported surveys. In order to help ensure the measured effect is an unbiased estimate of the effect of treatment, subjects were then randomly divided into treatment and control groups. The night before the beginning of the second week of observation, the participants randomized into the treatment group received an additional email asking them refrain from eating meat one day in the upcoming week. They were asked to identify the day of their choice using an additional single question survey. No additional contact was made with participants in the control group.  
+
+```{r , echo=FALSE, fig.cap="Figure 1: Experimental Design", out.width = '50%', fig.align='center'}
+knitr::include_graphics("ROXO.png")
+```
+
+## Daily Measurements 
+
+Participants were asked to weigh meat or examine meat packaged for the given weight, if possible, and failing this provide a description along with a weight or volumetric estimate. Accepting estimates in addition to measured data was expected to improve compliance relative to a more strict procedure. In order to aid participants and promote consistency among estimates, the same guidelines on judging meat weight were provided at the beginning of each daily survey. These guidelines are provided in Figure 2.
+
+```{r, echo=FALSE, fig.cap="Figure 2: Example of Survey Guidelines", out.width = '80%', fig.align='center'}
+knitr::include_graphics("SurveyGuidelines.png")
+```
+
+## Participants
+
+Potential study participants were obtained through an online Qualtrics survey. Links were sent out identifying that a study was recruiting participants interested in reducing the amount of meat they were currently eating. Only respondants that selected that they had an interest in this were accepted in the study. The effect of treatment is only desired for the subset of the population interested in reducing their meat consumption, since Meatless Monday campaigns are voluntary. The effect among the general population, if it could be obtained, would be of less value. This survey was also used to obtain demographic information on each participant that was thought could be potentially useful in identifying heterogeneous treatment effects.  
+
+As shown in Figure 3 outlining the experimental procedure, 54 responses were obtained from the initial survey. Fifty of these people identified that they were interested in reducing the amount of meat they were eating and signed up for the experiment. Of these, 12 did not respond to any further follow-up data collection emails.
+
+```{r, echo=FALSE, fig.cap="Figure 3: Experiment Progression", out.width = '100%', fig.align='center'}
+knitr::include_graphics("Flow_Diagram.png")
+```
+
+## Compliance and Attrition
+
+Figure 4 shows the attrition and non-compliance. There are 29.5% attrition before the first week, and 18.4% attrition after the first week. Most of the attrition occured before the subjects were randomized into treatment and control groups, and can be definitively said is not due group assignment. Therefore attrition is not expected to introduce a systemic bias. In order to avoid the effect of attrition on randomization, retain subjects and attrite subjects are randomly assigned treatment or control separately. After the second week, 6.9% attrition happened. One subject missed reporting one day in the first week and one day in the second week. 
+
+There are 12.5% of those in treatment group did eat meat on the day they selected to abstain. This is likely to occur during in meatless campaigns outside experimental conditions as well, and does not present a problem. The results from those in a meatless campaign who choose to eat meat are of interest as well. The primary measure of interest is the "Intent to Treat" of a meatless campaign among those interested in order to examine the true effectiveness of these programs.  
+
+![Figure 4: Bar chart and table hierarchy chart shows the aggerated attrition and non-compliance number. The table hierarchy also noted the experiment design and randomization process. Analysis all based on the orange data set. .  ](attr1.png)
+
+# Results
+## EDA
+```{r include=FALSE,warning=FALSE}
+# Loading the data
+d <- fread("./daily_totals_supply.csv")
+
+# Check if there are any records with more than 2 missing datapoint
+print(d[(rowSums(is.na(d))) > 2,])
+
+
+# Remove any rows that is missing more than 2 datapoints
+d.v1 <- d[(rowSums(is.na(d))) <= 2,]
+
+
+# Convert columns day4 and day12 to double. This will help with imputing data
+d.v1$Day4 = as.double(d.v1$Day4)
+d.v1$Day12 = as.double(d.v1$Day12)
+
+# Impute the missing data with the week's average
+d.v1[(rowSums(is.na(d.v1))) > 0,Day4:=(Day1+Day2+Day3+Day5+Day6+Day7)/6]
+d.v1[(rowSums(is.na(d.v1))) > 0,Day12:=(Day8+Day9+Day10+Day11+Day13+Day14)/6]
+
+
+# Transpose the dataset to convert meat consumption during various days from column to rows.
+d.transformed <- melt(d.v1[,1:25], id.vars = c("ID","Treatment","Sex","Age","Income","Household_Vegetarian","People_in_Household","Interest_Level","TreatmentDay","Reasons","Education"))
+
+# Convert the variable column to a character 
+d.transformed<-d.transformed[,variable:=as.character(variable)]
+
+# Create a new column to represent the number of the day
+d.transformed<-d.transformed[,day.no:=sapply(strsplit(d.transformed$variable, split='Day', fixed=TRUE),function(x) (x[2]))]
+
+# Covert day number to an ordered categorical variable.
+d.transformed$day.no <- ordered(d.transformed$day.no, levels = 1:14,
+                              labels = c("1", "2", "3", "4","5","6","7","8","9","10","11","12","13","14")) 
+
+# Create a treatment variable. If the treatment variable is zero, then the subject is in control or else the subject is in treatment. D is 1 for all subjects in treatment during week2.
+d.transformed[, D := ifelse(Treatment == 0 , 0, ifelse(day.no<=7,0,1))]
+
+# Create an indicator variable for the day of the treatment
+d.transformed[, treated.day := ifelse(Treatment == 0 , 0, ifelse(day.no == TreatmentDay,1,0))]
+
+# Create a week variable to indicate the treatment week and the control week.
+d.transformed[, week := ifelse(day.no <=7, 0, 1)]
+
+# Create a new variable called treatment status to capture the four periods : control, anticipation, treatment day and post treatment. Anticipation period begins on day 8 till the day before the treatment day.
+
+d.transformed[, treatment.stages := ifelse(D == 0 ,"Control",ifelse(day.no<TreatmentDay,"Anticipation",ifelse(day.no==TreatmentDay,"Treatment Day","Post Treatment")))]
+
+``` 
+
+The data provided in Figure 5 shows that subjects in control have more variability in daily meat consumption than those in the treatment group from a daily meat consumption perspective. Across both the weeks, the average daily meat consumption for the treatment group is less than that for the control group by about 2.4 ounces.
+
+```{r echo=FALSE,warning=FALSE,fig.align='center',fig.cap="Figure 5: Distribution of daily meat consumption by treatment and control groups"}
+stat_box_data <- function(y, upper_limit = max (y)*1) {
+  return( 
+    data.frame(
+      y = 0.97 * upper_limit,
+      label = paste('count =', length(y), '\n',
+                    'mean =', round(mean(y), 2), '&',
+                    'sd =', round(sd(y), 2), '\n')
+    )
+  )
+}
+
+ggplot(data=d.transformed, aes(x=as.factor(Treatment), y=value)) +
+    geom_boxplot(aes(colour = as.factor(Treatment)),outlier.colour = "red", outlier.shape = 1) +ylab("Meat consumption in Ounces")+xlab("Treatment / control") +geom_jitter(aes(as.factor(Treatment),value,shape=as.factor(week)),
+               position=position_jitter(width=0.2,height=0),
+               alpha=0.6,
+               size=1)  +   stat_summary(
+    fun.data = stat_box_data, 
+    geom = "text", 
+    hjust = 0.5,
+    vjust = 0.9,
+    position = position_dodge(width = 0.7)
+  ) + labs( shape="Week", colour="Treatment")
+
+```
+
+Figure 6 provides the distribution of meat consumption for 2 weeks for both the treatment and the control group. Both the treatment and control group are in "control" for week 0 and the treatment group goes in to treatment in week 1. For both weeks, the average daily meat consumption per person for the control group is greater than that of treatment group. Going in to week1, the mean for the control group has increased by about 0.4 ounce and the mean for treatment group has decreased by about 0.4 ounce. This  suggest that from a baseline meat consumption perspective, people in the treatment group already consume less meat than those in the control group.
+
+```{r echo=FALSE,fig.align='center',fig.cap="Figure 6: Distribution of daily meat consumption by treatment and control groups"}
+
+ggplot(data=d.transformed, aes(x=as.factor(Treatment), y=value)) +
+    geom_boxplot(aes(colour = as.factor(Treatment)),outlier.colour = "red", outlier.shape = 1) +ylab("Meat consumption in Ounces")+xlab("Treatment / control") +geom_jitter(aes(as.factor(Treatment),value,shape=as.factor(week)),
+               position=position_jitter(width=0.2,height=0),
+               alpha=0.6,
+               size=1)  +   stat_summary(
+    fun.data = stat_box_data, 
+    geom = "text", 
+    hjust = 0.5,
+    vjust = 0.9,
+    position = position_dodge(width = 0.7)
+  ) + labs( shape="Week", colour="Treatment")+facet_grid(as.factor(week) ~ .) 
+
+```
+
+ 
+Figure 7 provides meat consumption variation over different stages of treatment.  Average meat consumption per day for the treatment group under control conditions during the first week is 5.56 ounces. Once the treatment group is asked to refrain from eating meat on a day of their choice, there may be some anticipatory effect. During the time the treatment subjects are waiting in anticipation of the treatment day, their average daily meat consumption goes up by near 1 ounce. On the day of the treatment, a reduction in meat consumption is expected due to the nature of treatment. The average daily meat consumption reduces to 2.25 ounces for those in treatment on the day. After the treatment day, their average daily meat consumption increases to 5 but does remain lower than the baseline average. However, it should be noted that some subjects elected the first day of the week and some chose the last. Given the short window of treatment, pre-treatment and post-treatment data is not available for all those in treatment. Additionally, the number of days in the pre and post treatment day periods vary among subjects. Therefore, care should be taken to avoid drawing conclusions from these comparisons.
+
+```{r,echo=FALSE,fig.align='center',fig.cap="Figure 7: Distribution of daily meat consumption for the treatment group by treatment stages"}
+
+d.transformed$treatment.stages <- factor(d.transformed$treatment.stages,levels = c('Control','Anticipation','Treatment Day','Post Treatment'),ordered = TRUE)
+
+ggplot(data=d.transformed[d.transformed$Treatment==1], aes(x=treatment.stages, y=value)) +
+    geom_boxplot(aes(colour = as.factor(treatment.stages)),outlier.colour = "red", outlier.shape = 1) +ylab("Meat consumption in Ounces")+xlab("Treatment / control") +geom_jitter(aes(as.factor(treatment.stages),value,shape=as.factor(week)),
+               position=position_jitter(width=0.2,height=0),
+               alpha=0.6,
+               size=1)  +   stat_summary(
+    fun.data = stat_box_data, 
+    geom = "text", 
+    hjust = 0.5,
+    vjust = 0.9,
+    position = position_dodge(width = 0.7)
+  ) + labs( shape="Week", colour="treatment.status")
+
+```
+
+Figure 8 provides the daily responses by subject. There are three subjects that are driving up the average daily meat consumption in the control group. The subjects have high variability as far as their daily meat consumption goes. For the treatment group, there is one subject driving up the average daily meat consumption.  
+
+```{r,echo=FALSE,fig.align='center',fig.cap="Figure 8: Individual Distribution of daily meat consumption"}
+
+
+ggplot(data=d.transformed, aes(x=ID, y=value)) +
+    geom_boxplot(aes(colour = as.factor(ID)),outlier.colour = "red", outlier.shape = 1) +ylab("Meat consumption in Ounces")+xlab("Treatment / control") +geom_jitter(aes(as.factor(ID),value,shape=as.factor(week)),
+               position=position_jitter(width=0.2,height=0),
+               alpha=0.6,
+               size=1)  + labs( shape="Week", colour="ID")+theme(axis.text.x = element_text(angle = 90, hjust = 1),legend.position="bottom")+facet_grid(as.factor(Treatment) ~ .) + coord_flip()
+
+```
+
+# Covariate Balance Check
+
+The initial survey gathered information in eight different categories. The 'Interest_Level' covariate is to check the subject's interest level of reducing meat consumption. Study requirements removed the 4 subjects not interested in reducing meat consumption, leaving subjects who selected either moderately interested or very interested. A covariate labeled 'Reasons' asked people their primary reason they were interested in to reducing the amount of meat they eat. It is possible that people different motivations cause people to react differently to treatment. 'Household_Vegetarian' variable is to check if there is any vegetarian in household. People who have a vegetarian family member may have different reaction to the treatment. 'People_in_Household' covariate is to present the number of people in household. Since people in a single household tend to eat meals togther, those with larger families may have less influence on daily meals due to other family members cooking or shopping.  'Sex', 'Age', 'Income', and 'Education' are the demographic covariates collected. 
+
+Figure 9 shows the distribution of the covariates in treatment and control group. Differences between treatment and control are likely the result of the low number of subjects in some of the groups rather than an issue with the randomization process. 
+
+```{r , echo=FALSE, fig.cap="Figure 9: Summary of proportion and bar chart of covariates", out.width = '100%', fig.align='center'}
+knitr::include_graphics("cov1.png")
+```
+
+Figure 10 provides the results of the t-test and chi-squared test examining covariate balance between the treatment and control group. The null hypothesis is that there is no difference in proportions of the covariates from treatment and control group. The p-value of all the covariates are above 0.05, indicating that we cannot reject the null hypothesis. Notice that the covariate 'Reasons' has the least p-value 0.1332, which is mainly due to the unbalanced 'Reduce Animal Suffering' mentioned previously. 
+
+```{r , echo=FALSE, fig.cap="Figure 10: Covariates Balance Check by t-test and chi-squared test. P-values > 0.05 means that no information indicating failed randomization", out.width = '60%', fig.align='center'}
+knitr::include_graphics("cov2.png")
+```
+
+# Treatment Effect
+
+A simple regression was performed on the data from week one only during which all subjects were in control to examine whether a baseline difference in meat consumption was present between those assigned to treatment and those assigned to control in the second week. The dependent variable here is the daily meat weight measurement and the independent variable is an indicator variable for whether the observation comes from a subject assigned to treatment in the second week of the experiment. Although the difference is not statistically significant, it shows our best estimate is that on average those assigned to the treatment group eat approximately 2 ounces less meat per day than the subjects that were assigned to the control group for the duration of the experiment. It should be noted that all estimated standard errors and measures of uncertainty reported within this section are cluster-robust to account for the fact that each of the daily observations from a subject are related to each other.    
+
+```{r, include=F} 
+library(data.table)
+library(stargazer)
+library(lmtest)
+library(multiwayvcov)
+names <- c("ID","Weight","PreTreat_Anticipation","PostTreat","Surrounding","DayofExperiment","TreatmentDay","InTreatment","SelectedDay","InterestLevel","Reasons","Household_Vegetarian","Number_in_Household","Sex","Age","Income","Education","Treatment_Group")
+data <- read.table("./data.csv", header = TRUE,sep = ',',col.names = names )
+all <- data.table(data)
+w1only <- all[all$DayofExperiment<=7,]
+model <- lm(Weight~Treatment_Group,data = (w1only))
+```
+
+```{r, echo=FALSE,warning=FALSE,fig.align='center',fig.cap='Figure 11 Simple Regression for Baseline Differences'}
+stargazer(model, ci=TRUE,se=sqrt(diag(cluster.vcov(model,(factor(w1only$ID))))),header = FALSE, no.space = TRUE,single.row = TRUE,type='text',title = "Table 1: Simple Regression for Baseline Differences",
+         dep.var.labels=c("Daily Weight of Meat Consumed [oz]"))
+```
+Although not a statistically significant difference, this indicates it will be important to control for these baseline differences in tendency when estimating the causal effect of treatment overall. The next regression shows that we do see a large, statistically significant effect on the amount of meat eaten on the treatment day due to treatment assignment. This is consistent with expectation since most of those assigned to treatment did follow through and report zero meat consumption for that day. 
+
+```{r, , echo=FALSE}
+model_treatmentday <- lm(Weight~TreatmentDay+factor(ID),data=all)
+stargazer(model_treatmentday, ci=TRUE, se=sqrt(diag(cluster.vcov(model_treatmentday,(factor(all$ID))))),header = FALSE, no.space = TRUE,single.row = TRUE,type='text',title = "Table 2: Regression of Meat Consumption on Treatment Day Indicator",
+         dep.var.labels=c("Daily Weight of Meat Consumed [oz]"))
+#coeftest(model_treatmentday,vcov. = cluster.vcov(model_treatmentday,all$ID))
+```
+
+However, this does not answer the primary question of whether a difference is maintained over the course of the week. The next regression examines the treatment effect where a treatment observation is defined as one that occurs within the second week from a subject that was asked to refrain from eating meat one day that week. This regression indicates that the best estimate when controlling for individual behavior is that those subjects reduce overall meat consumption by an average of 0.39 ounces each day of the week they are in treatment. However, the 95% confidence interval on this effect is quite large, indicating that the experiment does not have the statistical power to determine whether an effect of this size is simply due to random variation. This indicates that although subjects in treatment tended to comply with not eating meat on the day of their choice, they balanced this with eating more meat than they normally would on other days in that week. Although the best estimate of the difference is that those in treatment maintained a small reduction, more subjects would be needed to reduce the uncertainty and confirm this.
+
+```{r}
+model_treatment <- lm(Weight~InTreatment+factor(ID),data=all)
+stargazer(model_treatment, ci=TRUE, se=sqrt(diag(cluster.vcov(model_treatment,(factor(all$ID))))),header = FALSE, no.space = TRUE,single.row = TRUE,type='text',title = "Table 3: Regression of Meat Consumption on Treatment",
+         dep.var.labels=c("Daily Weight of Meat Consumed [oz]"))
+#coeftest(model_treatmentday,vcov. = cluster.vcov(model_treatmentday,all$ID))
+```
+
+As noted previously, the behavior while under treatment may vary on when in the week the subject is relative to treatment, but due to the limited duration in treatment, data for a consistent comparison across the treatment group is not available. This kind of data would be valuable in future studies.
+
+# Statistical Power
+
+# Conclusions
+

@@ -1,0 +1,407 @@
+ID,Day,Meat_Comsumption ,Weekly_Meat_Com,Pre_Day_Consumption,Post_Day_Consumption,Week2,Treatment,Is_TreatmentDay,One_Day_Before_TD,Two_Day_Before_TD,Three_Day_Before_TD,One_Day_After_TD,Two_Day_After_TD,Three_Day_After_TD,Age,Education,Household_Vegetarian,Income,Interest_Level,People_in_Household,Reasons,Sex,Treatment_Day,Day#
+10t,Day10,0,2.357142857,2,5,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,10
+10t,Day11,5,2.357142857,0,0,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,11
+10t,Day12,0,2.357142857,5,0,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,12
+10t,Day13,0,2.357142857,0,6,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,13
+10t,Day14,6,2.357142857,0,6,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,14
+10t,Day1,6,2.357142857,6,4,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,1
+10t,Day2,4,2.357142857,6,4,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,2
+10t,Day3,4,2.357142857,4,2,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,3
+10t,Day4,2,2.357142857,4,0,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,4
+10t,Day5,0,2.357142857,2,0,0,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,5
+10t,Day6,0,2.357142857,0,0,0,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,6
+10t,Day7,0,2.357142857,0,4,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,7
+10t,Day8,4,2.357142857,0,2,1,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,8
+10t,Day9,2,2.357142857,4,0,1,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Very interested,2,Health Goals,Female,10,9
+11c,Day10,6,4.928571429,4,7,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,10
+11c,Day11,7,4.928571429,6,3,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,11
+11c,Day12,3,4.928571429,7,2,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,12
+11c,Day13,2,4.928571429,3,3,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,13
+11c,Day14,3,4.928571429,2,5,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,14
+11c,Day1,5,4.928571429,3,1,0,0,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,1
+11c,Day2,1,4.928571429,5,3,0,0,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,2
+11c,Day3,3,4.928571429,1,5,0,0,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,3
+11c,Day4,5,4.928571429,3,11,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,4
+11c,Day5,11,4.928571429,5,7,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,5
+11c,Day6,7,4.928571429,11,4,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,6
+11c,Day7,4,4.928571429,7,8,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,7
+11c,Day8,8,4.928571429,4,4,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,8
+11c,Day9,4,4.928571429,8,6,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Reduce Impact on Environment,Female,0,9
+12t,Day10,3,1.642857143,0,2,1,1,0,0,0,0,0,0,1,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,10
+12t,Day11,2,1.642857143,3,1,1,1,0,0,0,1,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,11
+12t,Day12,1,1.642857143,2,6,1,1,0,0,1,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,12
+12t,Day13,6,1.642857143,1,0,1,1,0,1,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,13
+12t,Day14,0,1.642857143,6,1,1,1,1,0,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,14
+12t,Day1,1,1.642857143,0,3,0,1,0,0,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,1
+12t,Day2,3,1.642857143,1,0,0,1,0,0,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,2
+12t,Day3,0,1.642857143,3,0,0,1,0,0,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,3
+12t,Day4,0,1.642857143,0,3,0,1,0,0,0,1,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,4
+12t,Day5,3,1.642857143,0,4,0,1,0,0,1,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,5
+12t,Day6,4,1.642857143,3,0,0,1,0,1,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,6
+12t,Day7,0,1.642857143,4,0,0,1,0,0,0,0,0,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,7
+12t,Day8,0,1.642857143,0,0,1,1,0,0,0,0,1,0,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,8
+12t,Day9,0,1.642857143,0,3,1,1,0,0,0,0,0,1,0,18 - 24,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Male,14,9
+13c,Day10,11,15,6,2,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,10
+13c,Day11,2,15,11,9,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,11
+13c,Day12,9,15,2,13,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,12
+13c,Day13,13,15,9,37,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,13
+13c,Day14,37,15,13,32,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,14
+13c,Day1,32,15,37,25,0,0,0,0,0,0,1,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,1
+13c,Day2,25,15,32,0,0,0,0,0,0,0,0,1,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,2
+13c,Day3,0,15,25,48,0,0,0,0,0,0,0,0,1,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,3
+13c,Day4,48,15,0,8,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,4
+13c,Day5,8,15,48,5,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,5
+13c,Day6,5,15,8,14,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,6
+13c,Day7,14,15,5,0,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,7
+13c,Day8,0,15,14,6,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,8
+13c,Day9,6,15,0,11,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,No,"Less than $30,000",Very interested,8,Health Goals,Female,0,9
+14c,Day10,6,10,14,0,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,10
+14c,Day11,0,10,6,4,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,11
+14c,Day12,4,10,0,14,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,12
+14c,Day13,14,10,4,22,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,13
+14c,Day14,22,10,14,16,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,14
+14c,Day1,16,10,22,18,0,0,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,1
+14c,Day2,18,10,16,6,0,0,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,2
+14c,Day3,6,10,18,11,0,0,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,3
+14c,Day4,11,10,6,8,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,4
+14c,Day5,8,10,11,13,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,5
+14c,Day6,13,10,8,0,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,6
+14c,Day7,0,10,13,8,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,7
+14c,Day8,8,10,0,14,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,8
+14c,Day9,14,10,8,6,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Moderately interested,1,Health Goals,Female,0,9
+15t,Day10,7,7.571428571,8,10,1,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,10
+15t,Day11,10,7.571428571,7,9,1,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,11
+15t,Day12,9,7.571428571,10,0,1,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,12
+15t,Day13,0,7.571428571,9,9,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,13
+15t,Day14,9,7.571428571,0,8,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,14
+15t,Day1,8,7.571428571,9,7,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,1
+15t,Day2,7,7.571428571,8,6,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,2
+15t,Day3,6,7.571428571,7,6,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,3
+15t,Day4,6,7.571428571,6,8,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,4
+15t,Day5,8,7.571428571,6,7,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,5
+15t,Day6,7,7.571428571,8,10,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,6
+15t,Day7,10,7.571428571,7,11,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,7
+15t,Day8,11,7.571428571,10,8,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,8
+15t,Day9,8,7.571428571,11,7,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,Prefer not to answer,Moderately interested,2,Other / Multiple motivating factors,Male,13,9
+16t,Day10,0,1.214285714,0,0,1,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,10
+16t,Day11,0,1.214285714,0,0,1,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,11
+16t,Day12,0,1.214285714,0,0,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,12
+16t,Day13,0,1.214285714,0,0,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,13
+16t,Day14,0,1.214285714,0,3,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,14
+16t,Day1,3,1.214285714,0,0,0,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,1
+16t,Day2,0,1.214285714,3,0,0,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,2
+16t,Day3,0,1.214285714,0,0,0,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,3
+16t,Day4,0,1.214285714,0,3,0,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,4
+16t,Day5,3,1.214285714,0,11,0,1,0,0,0,1,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,5
+16t,Day6,11,1.214285714,3,0,0,1,0,0,1,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,6
+16t,Day7,0,1.214285714,11,0,0,1,0,1,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,7
+16t,Day8,0,1.214285714,0,0,1,1,1,0,0,0,0,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,8
+16t,Day9,0,1.214285714,0,0,1,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"$69,000 - $99,999",Moderately interested,1,Other / Multiple motivating factors,Female,8,9
+17t,Day10,15,15.85714286,7,15,1,1,0,0,0,0,0,0,1,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,10
+17t,Day11,15,15.85714286,15,25,1,1,0,0,0,1,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,11
+17t,Day12,25,15.85714286,15,17,1,1,0,0,1,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,12
+17t,Day13,17,15.85714286,25,7,1,1,0,1,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,13
+17t,Day14,7,15.85714286,17,8,1,1,1,0,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,14
+17t,Day1,8,15.85714286,7,23,0,1,0,0,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,1
+17t,Day2,23,15.85714286,8,12,0,1,0,0,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,2
+17t,Day3,12,15.85714286,23,39,0,1,0,0,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,3
+17t,Day4,39,15.85714286,12,20,0,1,0,0,0,1,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,4
+17t,Day5,20,15.85714286,39,25,0,1,0,0,1,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,5
+17t,Day6,25,15.85714286,20,9,0,1,0,1,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,6
+17t,Day7,9,15.85714286,25,0,0,1,0,0,0,0,0,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,7
+17t,Day8,0,15.85714286,9,7,1,1,0,0,0,0,1,0,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,8
+17t,Day9,7,15.85714286,0,15,1,1,0,0,0,0,0,1,0,55 - 64,4 year degree,No,"$30,000 - $69,999",Very interested,2,Health Goals,Male,14,9
+19c,Day10,2,3.071428571,4,2,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,10
+19c,Day11,2,3.071428571,2,3,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,11
+19c,Day12,3,3.071428571,2,3,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,12
+19c,Day13,3,3.071428571,3,3,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,13
+19c,Day14,3,3.071428571,3,4,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,14
+19c,Day1,4,3.071428571,3,3,0,0,0,0,0,0,1,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,1
+19c,Day2,3,3.071428571,4,5,0,0,0,0,0,0,0,1,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,2
+19c,Day3,5,3.071428571,3,5,0,0,0,0,0,0,0,0,1,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,3
+19c,Day4,5,3.071428571,5,2,0,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,4
+19c,Day5,2,3.071428571,5,1,0,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,5
+19c,Day6,1,3.071428571,2,1,0,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,6
+19c,Day7,1,3.071428571,1,5,0,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,7
+19c,Day8,5,3.071428571,1,4,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,8
+19c,Day9,4,3.071428571,5,2,1,0,0,0,0,0,0,0,0,55 - 64,Postgraduate degree,No,"$69,000 - $99,999",Very interested,2,Health Goals,Female,0,9
+1c,Day10,16,15.42857143,23,11,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,10
+1c,Day11,11,15.42857143,16,30,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,11
+1c,Day12,30,15.42857143,11,14,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,12
+1c,Day13,14,15.42857143,30,11,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,13
+1c,Day14,11,15.42857143,14,12,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,14
+1c,Day1,12,15.42857143,11,14,0,0,0,0,0,0,1,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,1
+1c,Day2,14,15.42857143,12,12,0,0,0,0,0,0,0,1,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,2
+1c,Day3,12,15.42857143,14,15,0,0,0,0,0,0,0,0,1,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,3
+1c,Day4,15,15.42857143,12,14,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,4
+1c,Day5,14,15.42857143,15,16,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,5
+1c,Day6,16,15.42857143,14,19,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,6
+1c,Day7,19,15.42857143,16,9,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,7
+1c,Day8,9,15.42857143,19,23,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,8
+1c,Day9,23,15.42857143,9,16,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Moderately interested,1,Health Goals,Male,0,9
+20c,Day10,10,9.142857143,15,25,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,10
+20c,Day11,25,9.142857143,10,25,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,11
+20c,Day12,25,9.142857143,25,6,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,12
+20c,Day13,6,9.142857143,25,5,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,13
+20c,Day14,5,9.142857143,6,1,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,14
+20c,Day1,1,9.142857143,5,1,0,0,0,0,0,0,1,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,1
+20c,Day2,1,9.142857143,1,0,0,0,0,0,0,0,0,1,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,2
+20c,Day3,0,9.142857143,1,0,0,0,0,0,0,0,0,0,1,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,3
+20c,Day4,0,9.142857143,0,30,0,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,4
+20c,Day5,30,9.142857143,0,0,0,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,5
+20c,Day6,0,9.142857143,30,0,0,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,6
+20c,Day7,0,9.142857143,0,10,0,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,7
+20c,Day8,10,9.142857143,0,15,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,8
+20c,Day9,15,9.142857143,10,10,1,0,0,0,0,0,0,0,0,45 - 54,High school graduate,No,"Less than $30,000",Very interested,1,Health Goals,Female,0,9
+21c,Day10,9,6.5,7,8,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,10
+21c,Day11,8,6.5,9,8,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,11
+21c,Day12,8,6.5,8,7,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,12
+21c,Day13,7,6.5,8,6,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,13
+21c,Day14,6,6.5,7,4,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,14
+21c,Day1,4,6.5,6,6,0,0,0,0,0,0,1,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,1
+21c,Day2,6,6.5,4,7,0,0,0,0,0,0,0,1,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,2
+21c,Day3,7,6.5,6,7,0,0,0,0,0,0,0,0,1,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,3
+21c,Day4,7,6.5,7,7,0,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,4
+21c,Day5,7,6.5,7,5,0,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,5
+21c,Day6,5,6.5,7,5,0,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,6
+21c,Day7,5,6.5,5,5,0,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,7
+21c,Day8,5,6.5,5,7,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,8
+21c,Day9,7,6.5,5,9,1,0,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,9
+22t,Day10,11,10.78571429,13,13,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,10
+22t,Day11,13,10.78571429,11,10,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,11
+22t,Day12,10,10.78571429,13,9,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,12
+22t,Day13,9,10.78571429,10,10,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,13
+22t,Day14,10,10.78571429,9,15,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,14
+22t,Day1,15,10.78571429,10,10,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,1
+22t,Day2,10,10.78571429,15,11,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,2
+22t,Day3,11,10.78571429,10,13,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,3
+22t,Day4,13,10.78571429,11,9,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,4
+22t,Day5,9,10.78571429,13,8,0,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,5
+22t,Day6,8,10.78571429,9,11,0,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,6
+22t,Day7,11,10.78571429,8,8,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,7
+22t,Day8,8,10.78571429,11,13,1,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,8
+22t,Day9,13,10.78571429,8,11,1,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"More than $150,000",Moderately interested,2,Health Goals,Male,10,9
+23c,Day10,5,6.571428571,3,17,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,10
+23c,Day11,17,6.571428571,5,3,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,11
+23c,Day12,3,6.571428571,17,4,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,12
+23c,Day13,4,6.571428571,3,6,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,13
+23c,Day14,6,6.571428571,4,6,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,14
+23c,Day1,6,6.571428571,6,1,0,0,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,1
+23c,Day2,1,6.571428571,6,0,0,0,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,2
+23c,Day3,0,6.571428571,1,5,0,0,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,3
+23c,Day4,5,6.571428571,0,21,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,4
+23c,Day5,21,6.571428571,5,8,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,5
+23c,Day6,8,6.571428571,21,5,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,6
+23c,Day7,5,6.571428571,8,8,0,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,7
+23c,Day8,8,6.571428571,5,3,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,8
+23c,Day9,3,6.571428571,8,5,1,0,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"$100,000 - $149,999",Moderately interested,2,Reduce Impact on Environment,Male,0,9
+24t,Day10,5,7.5,3,8,1,1,0,0,1,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,10
+24t,Day11,8,7.5,5,0,1,1,0,1,0,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,11
+24t,Day12,0,7.5,8,12,1,1,1,0,0,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,12
+24t,Day13,12,7.5,0,14,1,1,0,0,0,0,1,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,13
+24t,Day14,14,7.5,12,3,1,1,0,0,0,0,0,1,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,14
+24t,Day1,3,7.5,14,0,0,1,0,0,0,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,1
+24t,Day2,0,7.5,3,17,0,1,0,0,0,1,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,2
+24t,Day3,17,7.5,0,12,0,1,0,0,1,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,3
+24t,Day4,12,7.5,17,19,0,1,0,1,0,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,4
+24t,Day5,19,7.5,12,0,0,1,0,0,0,0,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,5
+24t,Day6,0,7.5,19,0,0,1,0,0,0,0,1,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,6
+24t,Day7,0,7.5,0,12,0,1,0,0,0,0,0,1,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,7
+24t,Day8,12,7.5,0,3,1,1,0,0,0,0,0,0,1,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,8
+24t,Day9,3,7.5,12,5,1,1,0,0,0,1,0,0,0,18 - 24,4 year degree,No,Prefer not to answer,Moderately interested,4,Health Goals,Female,12,9
+25t,Day10,14,3.857142857,10,5,1,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,10
+25t,Day11,5,3.857142857,14,8,1,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,11
+25t,Day12,8,3.857142857,5,0,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,12
+25t,Day13,0,3.857142857,8,5,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,13
+25t,Day14,5,3.857142857,0,0,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,14
+25t,Day1,0,3.857142857,5,0,0,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,1
+25t,Day2,0,3.857142857,0,3,0,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,2
+25t,Day3,3,3.857142857,0,3,0,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,3
+25t,Day4,3,3.857142857,3,0,0,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,4
+25t,Day5,0,3.857142857,3,3,0,1,0,0,0,1,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,5
+25t,Day6,3,3.857142857,0,3,0,1,0,0,1,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,6
+25t,Day7,3,3.857142857,3,0,0,1,0,1,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,7
+25t,Day8,0,3.857142857,3,10,1,1,1,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,8
+25t,Day9,10,3.857142857,0,14,1,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"More than $150,000",Very interested,2,Health Goals,Female,8,9
+26c,Day10,10,9.285714286,15,11,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,10
+26c,Day11,11,9.285714286,10,11,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,11
+26c,Day12,11,9.285714286,11,8,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,12
+26c,Day13,8,9.285714286,11,9,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,13
+26c,Day14,9,9.285714286,8,10,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,14
+26c,Day1,10,9.285714286,9,7,0,0,0,0,0,0,1,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,1
+26c,Day2,7,9.285714286,10,8,0,0,0,0,0,0,0,1,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,2
+26c,Day3,8,9.285714286,7,3,0,0,0,0,0,0,0,0,1,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,3
+26c,Day4,3,9.285714286,8,13,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,4
+26c,Day5,13,9.285714286,3,11,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,5
+26c,Day6,11,9.285714286,13,6,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,6
+26c,Day7,6,9.285714286,11,8,0,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,7
+26c,Day8,8,9.285714286,6,15,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,8
+26c,Day9,15,9.285714286,8,10,1,0,0,0,0,0,0,0,0,18 - 24,High school graduate,Yes,"$69,000 - $99,999",Very interested,4,Reduce Impact on Environment,Female,0,9
+28c,Day10,10,9,10,0,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,10
+28c,Day11,0,9,10,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,11
+28c,Day12,10,9,0,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,12
+28c,Day13,10,9,10,8,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,13
+28c,Day14,8,9,10,8,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,14
+28c,Day1,8,9,8,16,0,0,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,1
+28c,Day2,16,9,8,6,0,0,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,2
+28c,Day3,6,9,16,18,0,0,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,3
+28c,Day4,18,9,6,6,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,4
+28c,Day5,6,9,18,8,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,5
+28c,Day6,8,9,6,8,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,6
+28c,Day7,8,9,8,8,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,7
+28c,Day8,8,9,8,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,8
+28c,Day9,10,9,8,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Moderately interested,2,Health Goals,Female,0,9
+29c,Day10,8,7.857142857,10,8,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,10
+29c,Day11,8,7.857142857,8,6,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,11
+29c,Day12,6,7.857142857,8,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,12
+29c,Day13,10,7.857142857,6,5,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,13
+29c,Day14,5,7.857142857,10,7,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,14
+29c,Day1,7,7.857142857,5,9,0,0,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,1
+29c,Day2,9,7.857142857,7,8,0,0,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,2
+29c,Day3,8,7.857142857,9,6,0,0,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,3
+29c,Day4,6,7.857142857,8,3,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,4
+29c,Day5,3,7.857142857,6,6,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,5
+29c,Day6,6,7.857142857,3,15,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,6
+29c,Day7,15,7.857142857,6,9,0,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,7
+29c,Day8,9,7.857142857,15,10,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,8
+29c,Day9,10,7.857142857,9,8,1,0,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$69,000 - $99,999",Very interested,3,Other / Multiple motivating factors,Female,0,9
+2t,Day10,0,0.5,0,0,1,1,0,0,0,0,1,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,10
+2t,Day11,0,0.5,0,4,1,1,0,0,0,0,0,1,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,11
+2t,Day12,4,0.5,0,0,1,1,0,0,0,0,0,0,1,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,12
+2t,Day13,0,0.5,4,0,1,1,0,0,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,13
+2t,Day14,0,0.5,0,0,1,1,0,0,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,14
+2t,Day1,0,0.5,0,0,0,1,0,1,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,1
+2t,Day2,0,0.5,0,0,0,1,0,0,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,2
+2t,Day3,0,0.5,0,0,0,1,0,0,0,0,1,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,3
+2t,Day4,0,0.5,0,0,0,1,0,0,0,0,0,1,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,4
+2t,Day5,0,0.5,0,3,0,1,0,0,0,0,0,0,1,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,5
+2t,Day6,3,0.5,0,0,0,1,0,0,0,1,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,6
+2t,Day7,0,0.5,3,0,0,1,0,0,1,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,7
+2t,Day8,0,0.5,0,0,1,1,0,1,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,8
+2t,Day9,0,0.5,0,0,1,1,1,0,0,0,0,0,0,25 - 34,High school graduate,Yes,"$30,000 - $69,999",Very interested,2,Other / Multiple motivating factors,Female,9,9
+30t,Day10,1,5.285714286,9,5,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,10
+30t,Day11,5,5.285714286,1,2,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,11
+30t,Day12,2,5.285714286,5,11,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,12
+30t,Day13,11,5.285714286,2,3,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,13
+30t,Day14,3,5.285714286,11,5,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,14
+30t,Day1,5,5.285714286,3,3,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,1
+30t,Day2,3,5.285714286,5,8,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,2
+30t,Day3,8,5.285714286,3,4,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,3
+30t,Day4,4,5.285714286,8,4,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,4
+30t,Day5,4,5.285714286,4,4,0,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,5
+30t,Day6,4,5.285714286,4,6,0,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,6
+30t,Day7,6,5.285714286,4,9,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,7
+30t,Day8,9,5.285714286,6,9,1,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,8
+30t,Day9,9,5.285714286,9,1,1,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"Less than $30,000",Very interested,1,Health Goals,Male,10,9
+31c,Day10,0,1.75,6,2,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,10
+31c,Day11,2,1.75,0,1.83333333,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,11
+31c,Day12,1.83333333,1.75,2,0,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,12
+31c,Day13,0,1.75,1.83333333,2,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,13
+31c,Day14,2,1.75,0,2,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,14
+31c,Day1,2,1.75,2,2,0,0,0,0,0,0,1,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,1
+31c,Day2,2,1.75,2,2,0,0,0,0,0,0,0,1,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,2
+31c,Day3,2,1.75,2,1.66666667,0,0,0,0,0,0,0,0,1,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,3
+31c,Day4,1.66666667,1.75,2,2,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,4
+31c,Day5,2,1.75,1.66666667,0,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,5
+31c,Day6,0,1.75,2,2,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,6
+31c,Day7,2,1.75,0,1,0,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,7
+31c,Day8,1,1.75,2,6,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,8
+31c,Day9,6,1.75,1,0,1,0,0,0,0,0,0,0,0,18 - 24,4 year degree,No,"$30,000 - $69,999",Very interested,3,Health Goals,Female,0,9
+3t,Day10,0,9.071428571,14,6,1,1,1,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,10
+3t,Day11,6,9.071428571,0,6,1,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,11
+3t,Day12,6,9.071428571,6,13,1,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,12
+3t,Day13,13,9.071428571,6,10,1,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,13
+3t,Day14,10,9.071428571,13,13,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,14
+3t,Day1,13,9.071428571,10,13,0,1,0,0,1,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,1
+3t,Day2,13,9.071428571,13,3,0,1,0,1,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,2
+3t,Day3,3,9.071428571,13,12,0,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,3
+3t,Day4,12,9.071428571,3,9,0,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,4
+3t,Day5,9,9.071428571,12,12,0,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,5
+3t,Day6,12,9.071428571,9,6,0,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,6
+3t,Day7,6,9.071428571,12,10,0,1,0,0,0,1,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,7
+3t,Day8,10,9.071428571,6,14,1,1,0,0,1,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,8
+3t,Day9,14,9.071428571,10,0,1,1,0,1,0,0,0,0,0,25 - 34,4 year degree,No,"More than $150,000",Moderately interested,2,Health Goals,Female,10,9
+4t,Day10,1,6.642857143,5,13,1,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,10
+4t,Day11,13,6.642857143,1,11,1,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,11
+4t,Day12,11,6.642857143,13,4,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,12
+4t,Day13,4,6.642857143,11,3,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,13
+4t,Day14,3,6.642857143,4,0,1,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,14
+4t,Day1,0,6.642857143,3,7,0,1,0,0,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,1
+4t,Day2,7,6.642857143,0,8,0,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,2
+4t,Day3,8,6.642857143,7,19,0,1,0,0,0,0,0,1,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,3
+4t,Day4,19,6.642857143,8,10,0,1,0,0,0,0,0,0,1,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,4
+4t,Day5,10,6.642857143,19,2,0,1,0,0,0,1,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,5
+4t,Day6,2,6.642857143,10,1,0,1,0,0,1,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,6
+4t,Day7,1,6.642857143,2,9,0,1,0,1,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,7
+4t,Day8,9,6.642857143,1,5,1,1,1,0,0,0,0,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,8
+4t,Day9,5,6.642857143,9,1,1,1,0,0,0,0,1,0,0,25 - 34,4 year degree,No,"Less than $30,000",Very interested,1,Reduce Animal Suffering,Female,8,9
+5t,Day10,4,3.785714286,4,6,1,1,0,0,1,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,10
+5t,Day11,6,3.785714286,4,0,1,1,0,1,0,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,11
+5t,Day12,0,3.785714286,6,3,1,1,1,0,0,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,12
+5t,Day13,3,3.785714286,0,5,1,1,0,0,0,0,1,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,13
+5t,Day14,5,3.785714286,3,4,1,1,0,0,0,0,0,1,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,14
+5t,Day1,4,3.785714286,5,2,0,1,0,0,0,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,1
+5t,Day2,2,3.785714286,4,3,0,1,0,0,0,1,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,2
+5t,Day3,3,3.785714286,2,6,0,1,0,0,1,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,3
+5t,Day4,6,3.785714286,3,7,0,1,0,1,0,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,4
+5t,Day5,7,3.785714286,6,3,0,1,0,0,0,0,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,5
+5t,Day6,3,3.785714286,7,2,0,1,0,0,0,0,1,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,6
+5t,Day7,2,3.785714286,3,4,0,1,0,0,0,0,0,1,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,7
+5t,Day8,4,3.785714286,2,4,1,1,0,0,0,0,0,0,1,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,8
+5t,Day9,4,3.785714286,4,4,1,1,0,0,0,1,0,0,0,55 - 64,High school graduate,Yes,"$100,000 - $149,999",Moderately interested,3,Health Goals,Female,12,9
+6c,Day10,3,2.714285714,4,3,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,10
+6c,Day11,3,2.714285714,3,6,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,11
+6c,Day12,6,2.714285714,3,2,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,12
+6c,Day13,2,2.714285714,6,4,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,13
+6c,Day14,4,2.714285714,2,2,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,14
+6c,Day1,2,2.714285714,4,2,0,0,0,0,0,0,1,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,1
+6c,Day2,2,2.714285714,2,2,0,0,0,0,0,0,0,1,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,2
+6c,Day3,2,2.714285714,2,2,0,0,0,0,0,0,0,0,1,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,3
+6c,Day4,2,2.714285714,2,2,0,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,4
+6c,Day5,2,2.714285714,2,1,0,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,5
+6c,Day6,1,2.714285714,2,3,0,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,6
+6c,Day7,3,2.714285714,1,2,0,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,7
+6c,Day8,2,2.714285714,3,4,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,8
+6c,Day9,4,2.714285714,2,3,1,0,0,0,0,0,0,0,0,45 - 54,Postgraduate degree,No,"More than $150,000",Very interested,4,Health Goals,Male,0,9
+7t,Day10,3,3.642857143,8,6,1,1,0,0,0,0,0,0,1,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,10
+7t,Day11,6,3.642857143,3,3,1,1,0,0,0,1,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,11
+7t,Day12,3,3.642857143,6,2,1,1,0,0,1,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,12
+7t,Day13,2,3.642857143,3,2,1,1,0,1,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,13
+7t,Day14,2,3.642857143,2,3,1,1,1,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,14
+7t,Day1,3,3.642857143,2,8,0,1,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,1
+7t,Day2,8,3.642857143,3,5,0,1,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,2
+7t,Day3,5,3.642857143,8,8,0,1,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,3
+7t,Day4,8,3.642857143,5,0,0,1,0,0,0,1,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,4
+7t,Day5,0,3.642857143,8,0,0,1,0,0,1,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,5
+7t,Day6,0,3.642857143,0,3,0,1,0,1,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,6
+7t,Day7,3,3.642857143,0,0,0,1,0,0,0,0,0,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,7
+7t,Day8,0,3.642857143,3,8,1,1,0,0,0,0,1,0,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,8
+7t,Day9,8,3.642857143,0,3,1,1,0,0,0,0,0,1,0,45 - 54,4 year degree,No,"$100,000 - $149,999",Very interested,2,Reduce Animal Suffering,Female,14,9
+8t,Day10,4,5.857142857,0,8,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,10
+8t,Day11,8,5.857142857,4,6,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,11
+8t,Day12,6,5.857142857,8,4,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,12
+8t,Day13,4,5.857142857,6,10,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,13
+8t,Day14,10,5.857142857,4,7,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,14
+8t,Day1,7,5.857142857,10,7,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,1
+8t,Day2,7,5.857142857,7,5,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,2
+8t,Day3,5,5.857142857,7,2,0,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,3
+8t,Day4,2,5.857142857,5,12,0,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,4
+8t,Day5,12,5.857142857,2,10,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,5
+8t,Day6,10,5.857142857,12,1,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,6
+8t,Day7,1,5.857142857,10,6,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,7
+8t,Day8,6,5.857142857,1,0,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,8
+8t,Day9,0,5.857142857,6,4,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$100,000 - $149,999",Very interested,4,Reduce Impact on Environment,Female,8,9
+9t,Day10,0,0.285714286,0,0,1,1,1,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,10
+9t,Day11,0,0.285714286,0,0,1,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,11
+9t,Day12,0,0.285714286,0,3,1,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,12
+9t,Day13,3,0.285714286,0,0,1,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,13
+9t,Day14,0,0.285714286,3,0,1,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,14
+9t,Day1,0,0.285714286,0,0,0,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,1
+9t,Day2,0,0.285714286,0,0,0,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,2
+9t,Day3,0,0.285714286,0,0,0,1,0,0,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,3
+9t,Day4,0,0.285714286,0,1,0,1,0,0,0,0,1,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,4
+9t,Day5,1,0.285714286,0,0,0,1,0,0,0,0,0,1,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,5
+9t,Day6,0,0.285714286,1,0,0,1,0,0,0,0,0,0,1,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,6
+9t,Day7,0,0.285714286,0,0,0,1,0,0,0,1,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,7
+9t,Day8,0,0.285714286,0,0,1,1,0,0,1,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,8
+9t,Day9,0,0.285714286,0,0,1,1,0,1,0,0,0,0,0,25 - 34,Postgraduate degree,No,"$30,000 - $69,999",Very interested,2,Reduce Animal Suffering,Female,10,9
