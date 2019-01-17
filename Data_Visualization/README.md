@@ -2,8 +2,10 @@
 
 Divya Babu, Charlene Chen, Matt Thielen, & Nate Velarde
 
-**Hosted:** http://people.ischool.berkeley.edu/~divyaraaga/eduStats/index.html
-**Hosted:** http://johnguerra.co/viz/berkeleyFinalProjectsFall2018/
+**Course Projects:** http://johnguerra.co/viz/berkeleyFinalProjectsFall2018/
+
+**Our Project:** http://people.ischool.berkeley.edu/~divyaraaga/eduStats/index.html
+
 
 ![](/media/Overview.png)
 
