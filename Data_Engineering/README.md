@@ -58,64 +58,6 @@ Students will:
 - Understand how basic data privacy, security, and chain-of-custody works.
 
 
-## Evaluation & Grading
-
-The 12 assignments will cumulatively build into 3 projects: the Query Project, the Tracking User Activity Project and the Understanding User Behavior Project. Each assignment will be a part of one of these projects. Each assignment will be a hands-on lab that is completed both individually and revisited during the synchronous weekly group sessions. Ten of the twelve assignments will be graded.
-
-Your final grade will be as follows:
-
-- 10% for each of the 10 graded assignments
-
-These assignments are the core of this course. Your work on them is one of the best ways for you to learn. To allow you to get the most out of each assignment, we iterate through each of them. For example, for Assignment 1: 1) you'll work in groups and hear from us about the content of the assignment in Week 1, then 2) you'll work on it independently and/or in groups during the week, coming to Week 2's synchronous session with an attempt at the assignment and any questions you have, next 3) we will review it and address questions during Week 2's synchronous session, and finally, 4) the final version of the assignment will be due the next day. 
-
-## Readings
-Most readings are available through a subscription to https://www.safaribooksonline.com/. Other readings are blogposts and links.
-
-
-## Prerequisites
-
-- Previous experience with Python.
-- Basic knowledge of Unix/Linux commands and tools as well as concepts such as processes, file systems.
-- In addition we'll use Docker, Git, and SQL as well as other tools.
-- If you feel like you're not where you'd like to be with these technologies/tools, here are some resources to get up to speed. There are options, pick which one best suits your needs.
-
-#### SQL
-
-    SQL Tutorial
-    w3schools.com
-    https://www.w3schools.com/sql/default.asp
-
-    Learning SQL, 2nd Edition
-	by Alan Beaulieu
-	https://www.safaribooksonline.com/library/view/learning-sql-2nd/9780596801847/
-
-#### The Command Line
-
-	Learning the Shell
-	by William E. Shotts, Jr.
-	http://linuxcommand.org/lc3_learning_the_shell.php
-
-#### Git
-
-	Pro Git book
-	by Scott Chacon and Ben Straub 
-	https://git-scm.com/book/en/v2
-
-#### Python
-
-	Python for Data Analysis, 2nd Edition
-	by William Wesley McKinney
-	https://www.safaribooksonline.com/library/view/python-for-data/9781491957653/
-
-#### Docker
-
-	Getting Started with Docker
-	https://docs.docker.com/get-started/
-
-	Using Docker
-	by Adrian Mouat
-	https://www.safaribooksonline.com/library/view/using-docker/9781491915752/
-
 ## Course Outline
 The course consists of 4 sections: A 3-week Introduction that covers the basics
 of storage and retrieval concepts and tools; a 5-week Basics section that
@@ -618,10 +560,3 @@ the live classroom for specific weeks in the term.
       14.2.1 - Docker Swarm
       14.2.2 - Kubernetes
 
-
-## Academic Integrity
-Please read UC Berkeley’s policies around academic integrity:
-http://sa.berkeley.edu/conduct/integrity
-
-## Avoiding Plagiarism
-Plagiarism is a serious academic offense, and students must take care not to copy code written by others. Beginning students sometimes have trouble identifying exactly when plagiarism takes place. Remember that it is generally fine to search for examples of code (for example, on forums like stackoverflow). This is a normal part of programming and can help you learn. However, it is important that you understand the code you find and use what you learn to write your own statements. If in doubt, simply document the place you found your example code and ask your instructors for further guidance.
