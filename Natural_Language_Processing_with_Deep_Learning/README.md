@@ -9,7 +9,7 @@ baseline in accuracy, F1 score and correlation, while the LDA model only slightl
 
 ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/methods.png)
 
-![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/result.png)
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/results.png)
 
 ![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/RNN-LSTM.png)
 
