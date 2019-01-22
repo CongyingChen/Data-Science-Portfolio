@@ -1,8 +1,8 @@
 #  Effect of Meatless Day on Overall Intake
 
-## Does “Meatless one day of week” reduce total meat consumption for that week?
+## Charlene Chen, Bethany Faughn, and Arvindh Ganesan
 
-Charlene Chen, Bethany Faughn, and Arvindh Ganesan
+**Does a Meatless one day of week reduce total meat consumption for that week?**
 
 The project is to implement the experiment to exam what is the aggregate change in meat consumption when subjects participate in these campaigns?
 

@@ -1,6 +1,6 @@
 # Explore Worldwide Female Educational Opportunities
 
-Divya Babu, Charlene Chen, Matt Thielen, & Nate Velarde
+## Divya Babu, Charlene Chen, Matt Thielen, & Nate Velarde
 
 **Course Projects:** http://johnguerra.co/viz/berkeleyFinalProjectsFall2018/
 
