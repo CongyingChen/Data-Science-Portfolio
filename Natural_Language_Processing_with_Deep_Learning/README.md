@@ -6,3 +6,13 @@ preference and then generate personalized restaurant recommendations to specific
 
 The primary RNN with LSTM units model dramatically outperformed our Gaussian Naive Bayes
 baseline in accuracy, F1 score and correlation, while the LDA model only slightly outperformed the Gaussian Naive Bayes baseline using the same metrics. The aspect of RNNs being able to determine relationships between words helped with the performance, but through error analysis we found that the model did not perform well in some review text where there were polarizing sentiments. Additionally, the topic pool in the LDA model contained some meaningless topics that led to degraded performance in generating useful user-topic distributions for nearest neighbor search.
+
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/methods.png)
+
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/result.png)
+
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/RNN-LSTM.png)
+
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/LDA.png)
+
+![](https://github.com/CongyingChen/Data-Science-Portfolio/blob/master/Natural_Language_Processing_with_Deep_Learning/code/image/LDA2.png)
